@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helio Pet Device™</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="product-section">
+        <!-- LEFT COLUMN: Main image + thumbnails -->
+        <div class="product-image">
+          <img
+            src="/images/banner1.jpg"
+            alt="Helio Pet Device in use on golden retriever"
+            id="product-img"
+          />
+
+          <div class="product-thumbnails">
+            <img
+              src="/images/banner1.jpg"
+              alt="Golden retriever"
+              class="active"
+            />
+            <img src="/images/banner2.jpg" alt="Pony therapy session" />
+            <img src="/images/banner3.jpg" alt="Dog with vet" />
+            <img src="/images/banner4.jpg" alt="Pitbull using device" />
+            <img src="/images/banner5.jpg" alt="Golden retriever close-up" />
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: Details -->
+        <div class="product-details">
+          <!-- Badge + rating -->
+          <span class="best-Seller">Best Seller</span>
+          <div class="rating">
+            <div class="stars">★★★★★</div>
+            <span class="count">4.9 (1,021 reviews)</span>
+          </div>
+
+          <!-- Title + testimonial -->
+          <h1 id="product-title">Helio Pet Device™</h1>
+
+          <!-- Testimonial Card -->
+          <div class="testimonial-card">
+            <img
+              src="/images/testimonial1.jpg"
+              alt="Happy customer"
+              class="testimonial-avatar"
+            />
+            <div class="testimonial-text">
+              “We are BOTH so THANKFUL! I purchased this for my 12-year-old Lab
+              mix as he’s got mobility issues with the back legs. It’s been 3
+              weeks and already a difference!”
+            </div>
+          </div>
+
+          <!-- Features -->
+          <ul class="features">
+            <li>Reduce aches &amp; pains with 5-minute sessions.</li>
+            <li>
+              Cold Laser Therapy helps with pain, inflammation &amp; more.
+            </li>
+            <li>Professional grade LLLT with 5 laser diodes.</li>
+          </ul>
+
+          <!-- Price -->
+          <div class="price-area">
+            <span id="compare-price">$369.00</span>
+            <span id="selling-price">$249.00</span>
+          </div>
+
+          <!-- Quantity + Add to Cart -->
+          <div class="controls">
+            <button id="add-to-cart-btn">Add to Cart</button>
+            <div class="quantity-selector">
+              <button id="decrease-btn">−</button>
+              <span id="quantity">1</span>
+              <button id="increase-btn">+</button>
+            </div>
+          </div>
+
+          <!-- Payment icons -->
+          <div class="payments">
+            <img src="/images/amex.png" alt="American Express" />
+            <img src="/images/visa.png" alt="Visa" />
+            <img src="/images/mastercard.webp" alt="Mastercard" />
+            <img src="/images/paypal.png" alt="PayPal" />
+            <img src="/images/discover.png" alt="Discover" />
+            <img src="/images/afterpay.jpg" alt="Afterpay" />
+          </div>
+
+          <!-- Money-back & delivery info -->
+          <p class="info">
+            <span class="highlight">30 day money back guarantee</span><br />
+            Expected delivery in
+            <span class="highlight">2–4 business days</span>
+          </p>
+        </div>
+
+        <!-- CART DRAWER (unchanged) -->
+        <!-- <div id="cart-drawer" class="cart-drawer hidden">
+        <div class="cart-header">
+          <h2>Your Cart</h2>
+          <button id="close-cart">&times;</button>
+        </div>
+
+        <div class="cart-items" id="cart-items">
+        </div>
+
+        <div class="cart-footer">
+          <strong>Total: <span id="cart-total">$0.00</span></strong>
+        </div>
+      </div> -->
+        <div id="cart-drawer" class="cart-drawer hidden">
+          <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button id="close-cart">&times;</button>
+          </div>
+
+          <div class="cart-items" id="cart-items"></div>
+
+          <!-- <div class="cart-footer">
+          <strong>Total: <span id="cart-total">$0.00</span></strong>
+        </div> -->
+          <div class="cart-footer">
+            <!-- Total row -->
+            <div class="total-row">
+              <span class="total-label">Estimated total</span>
+              <span class="total-price">
+                <span class="whole" id="cart-total">0</span
+                ><sup class="cents">.00</sup>
+                <span class="currency">AUD</span>
+              </span>
+            </div>
+
+            <!-- Checkout action -->
+            <button id="checkout-btn" class="checkout-btn">Checkout</button>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="pro-grade-section">
+        <div class="pro-grade-content">
+          <!-- Left column: headline + copy + numbered points -->
+          <div class="pro-text">
+            <h2>Professional Grade,<br /><span>Patented Design.</span></h2>
+            <p class="pro-lead">
+              It’s required to have a
+              <strong>strong enough output</strong> power of 3–10 Joules per cm²
+              with correct wavelengths (660 nm + 850 nm).
+            </p>
+
+            <ul class="pro-points">
+              <li>
+                <div class="point-marker">1</div>
+                <div class="point-text">
+                  The treatment head is <strong>340% bigger</strong> so it can
+                  finish a treatment in <strong>3 minutes</strong>, vs 10–20
+                  minutes.
+                </div>
+              </li>
+              <li>
+                <div class="point-marker">2</div>
+                <div class="point-text">
+                  Has <strong>3 Modes of Power</strong> to accommodate to any
+                  area. It also uses wavelengths 660 nm and 850 nm.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right column: badge bubbles + device image -->
+          <div class="pro-visual">
+            <div class="badge-bubble">800% More Power</div>
+            <div class="badge-bubble">3 Minutes</div>
+            <img
+              src="/images/machine.png"
+              alt="Helio device"
+              class="pro-device"
+            />
+         
+          </div>
+        </div>
+      </section>
+      <section class="reviews-section">
+        <h2>Verified Reviews.</h2>
+
+        <!-- Summary row (you can replace these with your own markup if you have dynamic data) -->
+        <div class="reviews-summary-container">
+          <div class="summary-score-block">
+            <div class="score-stars">
+              <span class="score">4.8</span>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="subtext">Based on 480 Reviews</div>
+          </div>
+          <div class="summary-bars-block">
+            <div class="bar-row">
+              <div class="bar-rating-stars">★★★★★</div>
+              <div class="bar"><span style="width: 89%"></span></div>
+              <div class="bar-count">(427)</div>
+            </div>
+            <div class="bar-row">
+              <div class="bar-rating-stars">★★★★☆</div>
+              <div class="bar"><span style="width: 10%"></span></div>
+              <div class="bar-count">(37)</div>
+            </div>
+            <div class="bar-row">
+              <div class="bar-rating-stars">★★★☆☆</div>
+              <div class="bar"><span style="width: 8%"></span></div>
+              <div class="bar-count">(9)</div>
+            </div>
+            <div class="bar-row">
+              <div class="bar-rating-stars">★★☆☆☆</div>
+              <div class="bar"><span style="width: 2%"></span></div>
+              <div class="bar-count">(3)</div>
+            </div>
+            <div class="bar-row">
+              <div class="bar-rating-stars">★☆☆☆☆</div>
+              <div class="bar"><span style="width: 4%"></span></div>
+              <div class="bar-count">(6)</div>
+            </div>
+          </div>
+          <!-- Image gallery -->
+          <div class="reviews-gallery">
+            <img src="/images/banner1.jpg" alt="" />
+            <img src="/images/banner2.jpg" alt="" />
+            <img src="/images/banner3.jpg" alt="" />
+            <img src="/images/banner4.jpg" alt="" />
+            <img src="/images/banner5.jpg" alt="" />
+            <img src="/images/banner1.jpg" alt="" />
+            <img src="/images/banner2.jpg" alt="" />
+            <img src="/images/banner3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="reviews-list-container">
+          <!-- Tab Navigation -->
+          <div class="reviews-tabs">
+            <button class="tab active">
+              Reviews <span class="tab-count">480</span>
+            </button>
+            <!-- you could add more tabs here in future -->
+          </div>
+
+          <!-- Reviews List -->
+          <div class="reviews-list">
+            <div class="review-item">
+              <div class="review-avatar">
+                <span class="avatar-initials">RC</span>
+                <span class="verified-badge">✔</span>
+              </div>
+              <div class="review-content">
+                <div class="review-header">
+                  <span class="review-author">Rizalinda C.</span>
+                  <span class="verified-text">Verified Buyer</span>
+                  <span class="review-country">🇺🇸 United States</span>
+                </div>
+                <div class="review-stars">★★★★★</div>
+                <div class="review-title">Excellent product</div>
+                <div class="review-body">
+                  It works for me and my hubby and my 23 year old chihuahua
+                </div>
+                <div class="review-images">
+                  <img src="/images/testimonial1.jpg" alt="" />
+                  <!-- more images -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Repeat .review-item for each review -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
